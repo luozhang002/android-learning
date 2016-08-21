@@ -10,16 +10,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+//        将布局XML文件引入到Act中
         setContentView(R.layout.activity_main);
-
-        Button button = (Button) findViewById(R.id.xiaoluoButton);
-
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-            }
-        });
-
     }
 }
